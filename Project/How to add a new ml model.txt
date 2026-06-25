@@ -1,0 +1,131 @@
+========================================
+ HOW TO ADD A NEW ML MODEL TO ML HUB
+========================================
+
+ML Hub is plugin-based. To add a model you create ONE folder inside projects/ and restart the app. You never edit app.py, the homepage, or the routing. The registry finds your project automatically and a new card with a full prediction page appears on the homepage. This works for both tabular models (CSV/form inputs) and image models.
+
+
+STEP 1 - Create the folder
+--------------------------
+
+projects/your_project/
+    __init__.py      describes the project (the only "wiring" file)
+    predictor.py     two functions: load() and predict()
+    notebook.ipynb   optional, your training notebook for reference
+    model/           saved model file(s) go here
+    data/            optional, your dataset
+
+Use a lowercase_with_underscores folder name. That name becomes the project's URL: /project/your_project/
+
+
+STEP 2 - Add your trained model
+-------------------------------
+
+Put your saved model inside model/, for example model/model.pkl (scikit-learn / joblib) or model/model.h5 (Keras / TensorFlow). Train it however you like; a notebook is fine (see the existing projects' notebook.ipynb files).
+
+Optional: also write model/metrics.json so the real accuracy shows on the page:
+    { "accuracy": "91.2%" }
+
+
+STEP 3 - Write predictor.py
+---------------------------
+
+You write two plain functions. load() reads the model file and is called only once (the hub caches the result for you). predict(model, inputs) receives the cached model plus the submitted form values and returns a PredictionResult.
+
+    from pathlib import Path
+    import joblib
+    import numpy as np
+    from core.spec import PredictionResult
+
+    MODEL_PATH = Path(__file__).resolve().parent / "model" / "model.pkl"
+    FEATURE_ORDER = ["area", "bedrooms"]   # must match your training order
+
+    def load():
+        return joblib.load(MODEL_PATH)
+
+    def predict(model, inputs):
+        vector = np.array([[inputs[f] for f in FEATURE_ORDER]], dtype=float)
+        value = model.predict(vector)[0]
+        return PredictionResult(label=f"${value:,.0f}", detail="Estimated price.")
+
+The keys in inputs (here "area" and "bedrooms") are the Field names you define in Step 4.
+
+
+STEP 4 - Write __init__.py
+--------------------------
+
+Fill in PROJECT (the metadata and the form) and bp (the blueprint). make_blueprint builds the whole prediction page for you.
+
+    from core.spec import Field, ModelInfo, ProjectSpec
+    from core.views import make_blueprint
+    from .predictor import load, predict
+
+    PROJECT = ProjectSpec(
+        id="your_project",                 # must equal the folder name
+        name="House Price Prediction",
+        icon="bi-house",                   # any icon from icons.getbootstrap.com
+        color="#0d9488",                   # accent colour for the card
+        category="Real Estate",
+        short_description="Estimate a home's market price.",
+        description="One clean sentence describing what the model does.",
+        accuracy="91%",
+        kind="tabular",                    # "tabular" or "image"
+        model_info=ModelInfo(algorithm="Random Forest Regressor",
+                             features=["Area", "Bedrooms"], accuracy="91%",
+                             dataset="Housing dataset.", notes=""),
+        fields=[
+            Field("area", "Area (sq ft)", type="number", placeholder="e.g. 1200"),
+            Field("bedrooms", "Bedrooms", type="number", step="1", min=0),
+        ],
+        load=load,
+        predict=predict,
+    )
+
+    bp = make_blueprint(PROJECT, __name__)
+
+
+STEP 5 - Restart
+----------------
+
+Run: cd Project && python app.py
+
+The new card appears on the homepage and the prediction page works. Optional: add your project id to _PREFERRED_ORDER in core/registry.py to control where its card sits on the homepage.
+
+
+FIELD TYPES (for the form)
+--------------------------
+
+Each Field becomes one input on the page. Field(name, label, type=..., ...) supports:
+
+    type="number"     numeric input. Extra options: step, min, max, placeholder.
+    type="text"       single-line text.
+    type="textarea"   multi-line text (good for NLP inputs).
+    type="select"     dropdown. Pass options=[("Label", value), ...]; predict() receives value.
+    type="file"       image upload (only for kind="image").
+
+Other Field options: required=True/False, default=..., help_text="...".
+
+
+IMAGE MODELS
+------------
+
+Set kind="image" and add a single file field: Field("image", "Leaf image", type="file", required=True). Your predict() receives inputs["image"] as a saved file PATH; load and preprocess it, then run your model (see projects/potato_leaf_disease/ for a complete CNN example). The uploaded image is shown automatically on the result page. Allowed types: JPG, JPEG, PNG (max 8 MB, set by MAX_CONTENT_LENGTH).
+
+
+CUSTOM PAGE LAYOUT (optional)
+-----------------------------
+
+Every project uses the shared, dynamic page templates/project_predict.html. If one project needs a unique layout, create projects/your_project/templates/your_project/predict.html and it will be used automatically instead of the shared one. Most projects never need this.
+
+
+CHECKLIST
+---------
+
+- Folder name = PROJECT id = lowercase_with_underscores
+- model/ contains the trained model file
+- FEATURE_ORDER in predictor.py matches the training order
+- Field names match the keys read in predict()
+- kind set correctly ("tabular" or "image")
+- Restarted the app
+
+That's it - no other files to touch.

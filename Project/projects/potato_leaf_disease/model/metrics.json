@@ -1,0 +1,14 @@
+{
+  "algorithm": "Convolutional Neural Network (Keras / TensorFlow)",
+  "accuracy": "94.6%",
+  "features": [
+    "RGB leaf image (256x256)"
+  ],
+  "classes": [
+    "Early Blight",
+    "Late Blight",
+    "Healthy"
+  ],
+  "dataset": "PlantVillage potato-leaf image dataset (3 classes).",
+  "n_samples": 2152
+}

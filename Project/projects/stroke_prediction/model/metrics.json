@@ -1,0 +1,22 @@
+{
+  "algorithm": "Logistic Regression (class-balanced)",
+  "accuracy": "75.3%",
+  "features": [
+    "gender",
+    "age",
+    "hypertension",
+    "heart_disease",
+    "ever_married",
+    "work_type",
+    "Residence_type",
+    "avg_glucose_level",
+    "bmi",
+    "smoking_status"
+  ],
+  "classes": [
+    "No stroke",
+    "Stroke"
+  ],
+  "dataset": "Healthcare stroke dataset (~5k patient records).",
+  "n_samples": 5110
+}

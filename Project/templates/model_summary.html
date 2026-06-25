@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}Model Summary — ML Hub{% endblock %}
+
+{% block content %}
+<div class="container admin-page">
+  <header class="admin-header">
+    <h1 class="admin-title">Model Summary</h1>
+    <p class="admin-sub">Trained models, sizes and health at a glance.</p>
+  </header>
+
+  <div class="row g-3 stat-row">
+    <div class="col-6 col-lg-3">
+      <div class="stat-card"><span class="stat-num">{{ stats.num_projects }}</span><span class="stat-lbl">Projects</span></div>
+    </div>
+    <div class="col-6 col-lg-3">
+      <div class="stat-card"><span class="stat-num">{{ stats.total_model_size }}</span><span class="stat-lbl">Total model size</span></div>
+    </div>
+    <div class="col-6 col-lg-3">
+      <div class="stat-card"><span class="stat-num">{{ stats.num_models }}</span><span class="stat-lbl">Model files</span></div>
+    </div>
+    <div class="col-6 col-lg-3">
+      <div class="stat-card"><span class="stat-num">{{ stats.categories|length }}</span><span class="stat-lbl">Categories</span></div>
+    </div>
+  </div>
+
+  <div class="panel mt-4">
+    <h2 class="panel-title"><i class="bi bi-hdd-stack"></i> Model inventory</h2>
+    <div class="table-responsive">
+      <table class="table admin-table align-middle">
+        <thead>
+          <tr><th>Project</th><th>Algorithm</th><th>Files</th><th>Last trained</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          {% for item in stats.projects %}
+          <tr>
+            <td>
+              <span class="adm-icon" style="color: {{ item.spec.color }};"><i class="bi {{ item.spec.icon }}"></i></span>
+              {{ item.spec.name }}
+            </td>
+            <td class="mono">{{ item.spec.model_info.algorithm }}</td>
+            <td class="mono">
+              {% for f in item.files %}<div>{{ f.name }} <span class="muted">({{ f.size }})</span></div>{% else %}<span class="muted">—</span>{% endfor %}
+            </td>
+            <td class="mono">{{ item.last_trained }}</td>
+            <td>
+              {% if item.healthy %}
+                <span class="badge-health ok"><i class="bi bi-check-circle-fill"></i> Healthy</span>
+              {% else %}
+                <span class="badge-health bad"><i class="bi bi-x-circle-fill"></i> No model</span>
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+{% endblock %}

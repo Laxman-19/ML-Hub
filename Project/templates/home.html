@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}ML Hub — a unified machine-learning workspace{% endblock %}
+
+{% block content %}
+<section class="hub-hero">
+  <div class="container">
+    <p class="hero-eyebrow">One workspace · many models</p>
+    <h1 class="hero-title">Run real machine-learning models,<br>from one place.</h1>
+    <p class="hero-sub">
+      {{ projects|length }} production models spanning healthcare, industry, language and vision —
+      each with its own trained model, live form and confidence scoring.
+    </p>
+
+    <div class="hero-controls">
+      <div class="search-wrap">
+        <i class="bi bi-search"></i>
+        <input type="search" id="project-search" class="form-control search-input"
+               placeholder="Search models…" autocomplete="off"
+               aria-label="Search models">
+      </div>
+      <div class="category-filters" id="category-filters">
+        <button class="chip chip-active" data-category="all" type="button">All</button>
+        {% for cat in categories %}
+          <button class="chip" data-category="{{ cat }}" type="button">{{ cat }}</button>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hub-grid-section">
+  <div class="container">
+    <div class="row g-4" id="project-grid">
+      {% for p in projects %}
+      <div class="col-12 col-sm-6 col-lg-4 project-col"
+           data-name="{{ p.name|lower }} {{ p.short_description|lower }} {{ p.category|lower }}"
+           data-category="{{ p.category }}"
+           style="--accent: {{ p.color }};">
+        <a class="project-card" href="{{ url_for(p.endpoint) }}">
+          <div class="card-top">
+            <span class="card-icon"><i class="bi {{ p.icon }}"></i></span>
+            <span class="card-category">{{ p.category }}</span>
+          </div>
+          <h2 class="card-title">{{ p.name }}</h2>
+          <p class="card-desc">{{ p.short_description }}</p>
+          <div class="card-foot">
+            <span class="card-metric">
+              <span class="metric-label">{{ 'Quality' if p.id == 'motor_maintenance' else 'Accuracy' }}</span>
+              <span class="metric-value">{{ p.accuracy }}</span>
+            </span>
+            <span class="card-launch">
+              Open <i class="bi bi-arrow-right"></i>
+            </span>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    <p id="no-results" class="no-results d-none">No models match your search.</p>
+  </div>
+</section>
+{% endblock %}

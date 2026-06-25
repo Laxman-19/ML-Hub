@@ -1,0 +1,19 @@
+{
+  "algorithm": "Random Forest Classifier",
+  "accuracy": "81.2%",
+  "features": [
+    "precipitation",
+    "temp_max",
+    "temp_min",
+    "wind"
+  ],
+  "classes": [
+    "drizzle",
+    "fog",
+    "rain",
+    "snow",
+    "sun"
+  ],
+  "dataset": "Daily weather observations (Seattle-style dataset).",
+  "n_samples": 1461
+}

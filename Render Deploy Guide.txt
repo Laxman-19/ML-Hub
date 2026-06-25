@@ -1,0 +1,49 @@
+==============================
+ RENDER DEPLOY GUIDE - ML Hub
+==============================
+
+Repository layout expected by these commands:
+
+    <repo root>/
+        requirements.txt        at the root
+        runtime.txt             at the root (pins the Python version)
+        Project/                the Flask app lives here
+            app.py
+            core/
+            projects/
+            templates/
+            static/
+            uploads/
+
+The app object is "app" inside Project/app.py, so gunicorn loads it with: --chdir Project app:app
+
+
+STEPS
+-----
+
+1. Push this repository to GitHub.
+
+2. On Render: New -> Web Service, then connect the repo.
+
+3. Settings:
+    Root Directory:  (leave blank - the repo root)
+    Build Command:   pip install -r requirements.txt
+    Start Command:   gunicorn --chdir Project app:app --workers 2 --timeout 120
+
+4. Environment variables. The only variable this app needs is SECRET_KEY, a long random string. Generate one with: python -c "import secrets; print(secrets.token_hex(32))". Everything else has sensible defaults, and there is no database to configure.
+
+5. Deploy. Optional health check path: /health
+
+
+NOTES
+-----
+
+The Python version is pinned in runtime.txt (python-3.11.9) and Render reads it automatically from the repo root.
+
+TensorFlow (used only by the Potato image model) is memory-heavy and loads lazily on the first potato prediction. With --workers 2 each worker can load its own copy, so if the instance runs out of memory, lower it to one worker: gunicorn --chdir Project app:app --workers 1 --timeout 180
+
+To run locally you don't need gunicorn:
+    pip install -r requirements.txt
+    cd Project
+    python app.py
+    # open http://localhost:5000

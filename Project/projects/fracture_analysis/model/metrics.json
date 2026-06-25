@@ -1,0 +1,17 @@
+{
+  "algorithm": "Decision Tree Classifier",
+  "accuracy": "100.0%",
+  "features": [
+    "AGE",
+    "SEX",
+    "ASSO MEDICAL PROB",
+    "H/O INJURY/SURGERY",
+    "DRUG HISTORY"
+  ],
+  "classes": [
+    "Osteopenia",
+    "Osteoporotic"
+  ],
+  "dataset": "Clinical bone-density dataset (Fracture_Dataset.csv)",
+  "n_samples": 1000
+}

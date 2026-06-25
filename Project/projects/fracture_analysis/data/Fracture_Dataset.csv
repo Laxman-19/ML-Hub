@@ -1,0 +1,1001 @@
+SI.NO,NAME,AGE,SEX,ASSO MEDICAL PROB,H/O INJURY/SURGERY,DRUG HISTORY,FREQUENCY,avg
+1,PATIENT_1,29,Male,no,no,no,"115, 115, 113",114.3
+2,PATIENT_2,36,Female,no,no,no,"95,94,96",94.0
+3,PATIENT_3,37,Male,no,no,no,"80,82,81",81.0
+4,PATIENT_4,37,Female,no,no,no,"100, 101, 100",100.33
+5,PATIENT_5,38,female,no,no,no,99100100.4,99.8
+6,PATIENT_6,39,Female,No,no,no,"99,99.5,101",99.83
+7,PATIENT_7,39,Female,no,no,no,"100, 99, 100.5",99.8
+8,PATIENT_8,41,Female,no,no,no,"99,95.5,98",98.3
+9,PATIENT_9,42,Female,No,no,no,"86,89,90",88.33
+10,PATIENT_10,44,Female,no,no,no,"90,91,92",91.0
+11,PATIENT_11,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+12,PATIENT_12,45,Female,no,no,no,"89,88,88",88.33
+13,PATIENT_13,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+14,PATIENT_14,48,Female,no,no,no,"86,86.2,85",85.77
+15,PATIENT_15,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+16,PATIENT_16,52,Female,no,no,no,"79,80,81",80.0
+17,PATIENT_17,52,Female,yes(bp),no,no,"85,85,84",84.66
+18,PATIENT_18,52,Female,no,no,no,"90,89,87",88.66
+19,PATIENT_19,53,Female,No,no,no,"80,81,81.8",80.93
+20,PATIENT_20,55,Female,no,no,no,"78,78,78.5",78.16
+21,PATIENT_21,55,Female,no,no,no,"77.5,76,78",78.0
+22,PATIENT_22,56,Female,no,no,no,"79.4,80,80",79.8
+23,PATIENT_23,56,Female,No,no,no,"77,76,78",77.0
+24,PATIENT_24,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+25,PATIENT_25,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+26,PATIENT_26,57,Female,No,uteres removal,no,"72,73,71",72.0
+27,PATIENT_27,57,Male,no,no,no,"81,82.5,80",81.16
+28,PATIENT_28,60,Female,No,no,no,"72.1,73,73",72.7
+29,PATIENT_29,60,Female,No,no,no,"69,71,72",70.66
+30,PATIENT_30,61,Female,no,no,no,"70,69.5,69",69.5
+31,PATIENT_31,62,male,no,no,no,"67,66.2,65",66.0
+32,PATIENT_32,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+33,PATIENT_33,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+34,PATIENT_34,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+35,PATIENT_35,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+36,PATIENT_36,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+37,PATIENT_37,66,Male,no,no,no,"69,68,70",69.0
+38,PATIENT_38,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+39,PATIENT_39,67,Male,no,no,no,"66,68,69",67.66
+40,PATIENT_40,68,Female,no,no,no,"61, 60, 63",61.33
+41,PATIENT_41,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+42,PATIENT_42,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+43,PATIENT_43,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+44,PATIENT_44,69,Female,no,no,no,"66,65,65.5",65.8
+45,PATIENT_45,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+46,PATIENT_46,72,Male,no,no,no,"68, 69, 68",68.3
+47,PATIENT_47,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+48,PATIENT_48,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+49,PATIENT_49,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+50,PATIENT_50,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+51,PATIENT_51,29,Male,no,no,no,"115, 115, 113",114.3
+52,PATIENT_52,36,Female,no,no,no,"95,94,96",94.0
+53,PATIENT_53,37,Male,no,no,no,"80,82,81",81.0
+54,PATIENT_54,37,Female,no,no,no,"100, 101, 100",100.33
+55,PATIENT_55,38,female,no,no,no,99100100.4,99.8
+56,PATIENT_56,39,Female,No,no,no,"99,99.5,101",99.83
+57,PATIENT_57,39,Female,no,no,no,"100, 99, 100.5",99.8
+58,PATIENT_58,41,Female,no,no,no,"99,95.5,98",98.3
+59,PATIENT_59,42,Female,No,no,no,"86,89,90",88.33
+60,PATIENT_60,44,Female,no,no,no,"90,91,92",91.0
+61,PATIENT_61,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+62,PATIENT_62,45,Female,no,no,no,"89,88,88",88.33
+63,PATIENT_63,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+64,PATIENT_64,48,Female,no,no,no,"86,86.2,85",85.77
+65,PATIENT_65,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+66,PATIENT_66,52,Female,no,no,no,"79,80,81",80.0
+67,PATIENT_67,52,Female,yes(bp),no,no,"85,85,84",84.66
+68,PATIENT_68,52,Female,no,no,no,"90,89,87",88.66
+69,PATIENT_69,53,Female,No,no,no,"80,81,81.8",80.93
+70,PATIENT_70,55,Female,no,no,no,"78,78,78.5",78.16
+71,PATIENT_71,55,Female,no,no,no,"77.5,76,78",78.0
+72,PATIENT_72,56,Female,no,no,no,"79.4,80,80",79.8
+73,PATIENT_73,56,Female,No,no,no,"77,76,78",77.0
+74,PATIENT_74,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+75,PATIENT_75,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+76,PATIENT_76,57,Female,No,uteres removal,no,"72,73,71",72.0
+77,PATIENT_77,57,Male,no,no,no,"81,82.5,80",81.16
+78,PATIENT_78,60,Female,No,no,no,"72.1,73,73",72.7
+79,PATIENT_79,60,Female,No,no,no,"69,71,72",70.66
+80,PATIENT_80,61,Female,no,no,no,"70,69.5,69",69.5
+81,PATIENT_81,62,male,no,no,no,"67,66.2,65",66.0
+82,PATIENT_82,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+83,PATIENT_83,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+84,PATIENT_84,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+85,PATIENT_85,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+86,PATIENT_86,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+87,PATIENT_87,66,Male,no,no,no,"69,68,70",69.0
+88,PATIENT_88,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+89,PATIENT_89,67,Male,no,no,no,"66,68,69",67.66
+90,PATIENT_90,68,Female,no,no,no,"61, 60, 63",61.33
+91,PATIENT_91,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+92,PATIENT_92,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+93,PATIENT_93,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+94,PATIENT_94,69,Female,no,no,no,"66,65,65.5",65.8
+95,PATIENT_95,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+96,PATIENT_96,72,Male,no,no,no,"68, 69, 68",68.3
+97,PATIENT_97,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+98,PATIENT_98,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+99,PATIENT_99,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+100,PATIENT_100,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+101,PATIENT_101,29,Male,no,no,no,"115, 115, 113",114.3
+102,PATIENT_102,36,Female,no,no,no,"95,94,96",94.0
+103,PATIENT_103,37,Male,no,no,no,"80,82,81",81.0
+104,PATIENT_104,37,Female,no,no,no,"100, 101, 100",100.33
+105,PATIENT_105,38,female,no,no,no,99100100.4,99.8
+106,PATIENT_106,39,Female,No,no,no,"99,99.5,101",99.83
+107,PATIENT_107,39,Female,no,no,no,"100, 99, 100.5",99.8
+108,PATIENT_108,41,Female,no,no,no,"99,95.5,98",98.3
+109,PATIENT_109,42,Female,No,no,no,"86,89,90",88.33
+110,PATIENT_110,44,Female,no,no,no,"90,91,92",91.0
+111,PATIENT_111,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+112,PATIENT_112,45,Female,no,no,no,"89,88,88",88.33
+113,PATIENT_113,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+114,PATIENT_114,48,Female,no,no,no,"86,86.2,85",85.77
+115,PATIENT_115,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+116,PATIENT_116,52,Female,no,no,no,"79,80,81",80.0
+117,PATIENT_117,52,Female,yes(bp),no,no,"85,85,84",84.66
+118,PATIENT_118,52,Female,no,no,no,"90,89,87",88.66
+119,PATIENT_119,53,Female,No,no,no,"80,81,81.8",80.93
+120,PATIENT_120,55,Female,no,no,no,"78,78,78.5",78.16
+121,PATIENT_121,55,Female,no,no,no,"77.5,76,78",78.0
+122,PATIENT_122,56,Female,no,no,no,"79.4,80,80",79.8
+123,PATIENT_123,56,Female,No,no,no,"77,76,78",77.0
+124,PATIENT_124,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+125,PATIENT_125,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+126,PATIENT_126,57,Female,No,uteres removal,no,"72,73,71",72.0
+127,PATIENT_127,57,Male,no,no,no,"81,82.5,80",81.16
+128,PATIENT_128,60,Female,No,no,no,"72.1,73,73",72.7
+129,PATIENT_129,60,Female,No,no,no,"69,71,72",70.66
+130,PATIENT_130,61,Female,no,no,no,"70,69.5,69",69.5
+131,PATIENT_131,62,male,no,no,no,"67,66.2,65",66.0
+132,PATIENT_132,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+133,PATIENT_133,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+134,PATIENT_134,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+135,PATIENT_135,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+136,PATIENT_136,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+137,PATIENT_137,66,Male,no,no,no,"69,68,70",69.0
+138,PATIENT_138,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+139,PATIENT_139,67,Male,no,no,no,"66,68,69",67.66
+140,PATIENT_140,68,Female,no,no,no,"61, 60, 63",61.33
+141,PATIENT_141,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+142,PATIENT_142,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+143,PATIENT_143,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+144,PATIENT_144,69,Female,no,no,no,"66,65,65.5",65.8
+145,PATIENT_145,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+146,PATIENT_146,72,Male,no,no,no,"68, 69, 68",68.3
+147,PATIENT_147,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+148,PATIENT_148,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+149,PATIENT_149,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+150,PATIENT_150,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+151,PATIENT_151,29,Male,no,no,no,"115, 115, 113",114.3
+152,PATIENT_152,36,Female,no,no,no,"95,94,96",94.0
+153,PATIENT_153,37,Male,no,no,no,"80,82,81",81.0
+154,PATIENT_154,37,Female,no,no,no,"100, 101, 100",100.33
+155,PATIENT_155,38,female,no,no,no,99100100.4,99.8
+156,PATIENT_156,39,Female,No,no,no,"99,99.5,101",99.83
+157,PATIENT_157,39,Female,no,no,no,"100, 99, 100.5",99.8
+158,PATIENT_158,41,Female,no,no,no,"99,95.5,98",98.3
+159,PATIENT_159,42,Female,No,no,no,"86,89,90",88.33
+160,PATIENT_160,44,Female,no,no,no,"90,91,92",91.0
+161,PATIENT_161,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+162,PATIENT_162,45,Female,no,no,no,"89,88,88",88.33
+163,PATIENT_163,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+164,PATIENT_164,48,Female,no,no,no,"86,86.2,85",85.77
+165,PATIENT_165,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+166,PATIENT_166,52,Female,no,no,no,"79,80,81",80.0
+167,PATIENT_167,52,Female,yes(bp),no,no,"85,85,84",84.66
+168,PATIENT_168,52,Female,no,no,no,"90,89,87",88.66
+169,PATIENT_169,53,Female,No,no,no,"80,81,81.8",80.93
+170,PATIENT_170,55,Female,no,no,no,"78,78,78.5",78.16
+171,PATIENT_171,55,Female,no,no,no,"77.5,76,78",78.0
+172,PATIENT_172,56,Female,no,no,no,"79.4,80,80",79.8
+173,PATIENT_173,56,Female,No,no,no,"77,76,78",77.0
+174,PATIENT_174,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+175,PATIENT_175,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+176,PATIENT_176,57,Female,No,uteres removal,no,"72,73,71",72.0
+177,PATIENT_177,57,Male,no,no,no,"81,82.5,80",81.16
+178,PATIENT_178,60,Female,No,no,no,"72.1,73,73",72.7
+179,PATIENT_179,60,Female,No,no,no,"69,71,72",70.66
+180,PATIENT_180,61,Female,no,no,no,"70,69.5,69",69.5
+181,PATIENT_181,62,male,no,no,no,"67,66.2,65",66.0
+182,PATIENT_182,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+183,PATIENT_183,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+184,PATIENT_184,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+185,PATIENT_185,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+186,PATIENT_186,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+187,PATIENT_187,66,Male,no,no,no,"69,68,70",69.0
+188,PATIENT_188,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+189,PATIENT_189,67,Male,no,no,no,"66,68,69",67.66
+190,PATIENT_190,68,Female,no,no,no,"61, 60, 63",61.33
+191,PATIENT_191,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+192,PATIENT_192,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+193,PATIENT_193,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+194,PATIENT_194,69,Female,no,no,no,"66,65,65.5",65.8
+195,PATIENT_195,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+196,PATIENT_196,72,Male,no,no,no,"68, 69, 68",68.3
+197,PATIENT_197,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+198,PATIENT_198,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+199,PATIENT_199,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+200,PATIENT_200,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+201,PATIENT_201,29,Male,no,no,no,"115, 115, 113",114.3
+202,PATIENT_202,36,Female,no,no,no,"95,94,96",94.0
+203,PATIENT_203,37,Male,no,no,no,"80,82,81",81.0
+204,PATIENT_204,37,Female,no,no,no,"100, 101, 100",100.33
+205,PATIENT_205,38,female,no,no,no,99100100.4,99.8
+206,PATIENT_206,39,Female,No,no,no,"99,99.5,101",99.83
+207,PATIENT_207,39,Female,no,no,no,"100, 99, 100.5",99.8
+208,PATIENT_208,41,Female,no,no,no,"99,95.5,98",98.3
+209,PATIENT_209,42,Female,No,no,no,"86,89,90",88.33
+210,PATIENT_210,44,Female,no,no,no,"90,91,92",91.0
+211,PATIENT_211,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+212,PATIENT_212,45,Female,no,no,no,"89,88,88",88.33
+213,PATIENT_213,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+214,PATIENT_214,48,Female,no,no,no,"86,86.2,85",85.77
+215,PATIENT_215,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+216,PATIENT_216,52,Female,no,no,no,"79,80,81",80.0
+217,PATIENT_217,52,Female,yes(bp),no,no,"85,85,84",84.66
+218,PATIENT_218,52,Female,no,no,no,"90,89,87",88.66
+219,PATIENT_219,53,Female,No,no,no,"80,81,81.8",80.93
+220,PATIENT_220,55,Female,no,no,no,"78,78,78.5",78.16
+221,PATIENT_221,55,Female,no,no,no,"77.5,76,78",78.0
+222,PATIENT_222,56,Female,no,no,no,"79.4,80,80",79.8
+223,PATIENT_223,56,Female,No,no,no,"77,76,78",77.0
+224,PATIENT_224,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+225,PATIENT_225,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+226,PATIENT_226,57,Female,No,uteres removal,no,"72,73,71",72.0
+227,PATIENT_227,57,Male,no,no,no,"81,82.5,80",81.16
+228,PATIENT_228,60,Female,No,no,no,"72.1,73,73",72.7
+229,PATIENT_229,60,Female,No,no,no,"69,71,72",70.66
+230,PATIENT_230,61,Female,no,no,no,"70,69.5,69",69.5
+231,PATIENT_231,62,male,no,no,no,"67,66.2,65",66.0
+232,PATIENT_232,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+233,PATIENT_233,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+234,PATIENT_234,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+235,PATIENT_235,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+236,PATIENT_236,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+237,PATIENT_237,66,Male,no,no,no,"69,68,70",69.0
+238,PATIENT_238,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+239,PATIENT_239,67,Male,no,no,no,"66,68,69",67.66
+240,PATIENT_240,68,Female,no,no,no,"61, 60, 63",61.33
+241,PATIENT_241,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+242,PATIENT_242,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+243,PATIENT_243,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+244,PATIENT_244,69,Female,no,no,no,"66,65,65.5",65.8
+245,PATIENT_245,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+246,PATIENT_246,72,Male,no,no,no,"68, 69, 68",68.3
+247,PATIENT_247,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+248,PATIENT_248,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+249,PATIENT_249,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+250,PATIENT_250,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+251,PATIENT_251,29,Male,no,no,no,"115, 115, 113",114.3
+252,PATIENT_252,36,Female,no,no,no,"95,94,96",94.0
+253,PATIENT_253,37,Male,no,no,no,"80,82,81",81.0
+254,PATIENT_254,37,Female,no,no,no,"100, 101, 100",100.33
+255,PATIENT_255,38,female,no,no,no,99100100.4,99.8
+256,PATIENT_256,39,Female,No,no,no,"99,99.5,101",99.83
+257,PATIENT_257,39,Female,no,no,no,"100, 99, 100.5",99.8
+258,PATIENT_258,41,Female,no,no,no,"99,95.5,98",98.3
+259,PATIENT_259,42,Female,No,no,no,"86,89,90",88.33
+260,PATIENT_260,44,Female,no,no,no,"90,91,92",91.0
+261,PATIENT_261,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+262,PATIENT_262,45,Female,no,no,no,"89,88,88",88.33
+263,PATIENT_263,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+264,PATIENT_264,48,Female,no,no,no,"86,86.2,85",85.77
+265,PATIENT_265,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+266,PATIENT_266,52,Female,no,no,no,"79,80,81",80.0
+267,PATIENT_267,52,Female,yes(bp),no,no,"85,85,84",84.66
+268,PATIENT_268,52,Female,no,no,no,"90,89,87",88.66
+269,PATIENT_269,53,Female,No,no,no,"80,81,81.8",80.93
+270,PATIENT_270,55,Female,no,no,no,"78,78,78.5",78.16
+271,PATIENT_271,55,Female,no,no,no,"77.5,76,78",78.0
+272,PATIENT_272,56,Female,no,no,no,"79.4,80,80",79.8
+273,PATIENT_273,56,Female,No,no,no,"77,76,78",77.0
+274,PATIENT_274,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+275,PATIENT_275,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+276,PATIENT_276,57,Female,No,uteres removal,no,"72,73,71",72.0
+277,PATIENT_277,57,Male,no,no,no,"81,82.5,80",81.16
+278,PATIENT_278,60,Female,No,no,no,"72.1,73,73",72.7
+279,PATIENT_279,60,Female,No,no,no,"69,71,72",70.66
+280,PATIENT_280,61,Female,no,no,no,"70,69.5,69",69.5
+281,PATIENT_281,62,male,no,no,no,"67,66.2,65",66.0
+282,PATIENT_282,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+283,PATIENT_283,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+284,PATIENT_284,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+285,PATIENT_285,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+286,PATIENT_286,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+287,PATIENT_287,66,Male,no,no,no,"69,68,70",69.0
+288,PATIENT_288,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+289,PATIENT_289,67,Male,no,no,no,"66,68,69",67.66
+290,PATIENT_290,68,Female,no,no,no,"61, 60, 63",61.33
+291,PATIENT_291,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+292,PATIENT_292,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+293,PATIENT_293,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+294,PATIENT_294,69,Female,no,no,no,"66,65,65.5",65.8
+295,PATIENT_295,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+296,PATIENT_296,72,Male,no,no,no,"68, 69, 68",68.3
+297,PATIENT_297,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+298,PATIENT_298,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+299,PATIENT_299,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+300,PATIENT_300,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+301,PATIENT_301,29,Male,no,no,no,"115, 115, 113",114.3
+302,PATIENT_302,36,Female,no,no,no,"95,94,96",94.0
+303,PATIENT_303,37,Male,no,no,no,"80,82,81",81.0
+304,PATIENT_304,37,Female,no,no,no,"100, 101, 100",100.33
+305,PATIENT_305,38,female,no,no,no,99100100.4,99.8
+306,PATIENT_306,39,Female,No,no,no,"99,99.5,101",99.83
+307,PATIENT_307,39,Female,no,no,no,"100, 99, 100.5",99.8
+308,PATIENT_308,41,Female,no,no,no,"99,95.5,98",98.3
+309,PATIENT_309,42,Female,No,no,no,"86,89,90",88.33
+310,PATIENT_310,44,Female,no,no,no,"90,91,92",91.0
+311,PATIENT_311,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+312,PATIENT_312,45,Female,no,no,no,"89,88,88",88.33
+313,PATIENT_313,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+314,PATIENT_314,48,Female,no,no,no,"86,86.2,85",85.77
+315,PATIENT_315,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+316,PATIENT_316,52,Female,no,no,no,"79,80,81",80.0
+317,PATIENT_317,52,Female,yes(bp),no,no,"85,85,84",84.66
+318,PATIENT_318,52,Female,no,no,no,"90,89,87",88.66
+319,PATIENT_319,53,Female,No,no,no,"80,81,81.8",80.93
+320,PATIENT_320,55,Female,no,no,no,"78,78,78.5",78.16
+321,PATIENT_321,55,Female,no,no,no,"77.5,76,78",78.0
+322,PATIENT_322,56,Female,no,no,no,"79.4,80,80",79.8
+323,PATIENT_323,56,Female,No,no,no,"77,76,78",77.0
+324,PATIENT_324,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+325,PATIENT_325,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+326,PATIENT_326,57,Female,No,uteres removal,no,"72,73,71",72.0
+327,PATIENT_327,57,Male,no,no,no,"81,82.5,80",81.16
+328,PATIENT_328,60,Female,No,no,no,"72.1,73,73",72.7
+329,PATIENT_329,60,Female,No,no,no,"69,71,72",70.66
+330,PATIENT_330,61,Female,no,no,no,"70,69.5,69",69.5
+331,PATIENT_331,62,male,no,no,no,"67,66.2,65",66.0
+332,PATIENT_332,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+333,PATIENT_333,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+334,PATIENT_334,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+335,PATIENT_335,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+336,PATIENT_336,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+337,PATIENT_337,66,Male,no,no,no,"69,68,70",69.0
+338,PATIENT_338,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+339,PATIENT_339,67,Male,no,no,no,"66,68,69",67.66
+340,PATIENT_340,68,Female,no,no,no,"61, 60, 63",61.33
+341,PATIENT_341,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+342,PATIENT_342,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+343,PATIENT_343,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+344,PATIENT_344,69,Female,no,no,no,"66,65,65.5",65.8
+345,PATIENT_345,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+346,PATIENT_346,72,Male,no,no,no,"68, 69, 68",68.3
+347,PATIENT_347,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+348,PATIENT_348,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+349,PATIENT_349,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+350,PATIENT_350,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+351,PATIENT_351,29,Male,no,no,no,"115, 115, 113",114.3
+352,PATIENT_352,36,Female,no,no,no,"95,94,96",94.0
+353,PATIENT_353,37,Male,no,no,no,"80,82,81",81.0
+354,PATIENT_354,37,Female,no,no,no,"100, 101, 100",100.33
+355,PATIENT_355,38,female,no,no,no,99100100.4,99.8
+356,PATIENT_356,39,Female,No,no,no,"99,99.5,101",99.83
+357,PATIENT_357,39,Female,no,no,no,"100, 99, 100.5",99.8
+358,PATIENT_358,41,Female,no,no,no,"99,95.5,98",98.3
+359,PATIENT_359,42,Female,No,no,no,"86,89,90",88.33
+360,PATIENT_360,44,Female,no,no,no,"90,91,92",91.0
+361,PATIENT_361,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+362,PATIENT_362,45,Female,no,no,no,"89,88,88",88.33
+363,PATIENT_363,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+364,PATIENT_364,48,Female,no,no,no,"86,86.2,85",85.77
+365,PATIENT_365,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+366,PATIENT_366,52,Female,no,no,no,"79,80,81",80.0
+367,PATIENT_367,52,Female,yes(bp),no,no,"85,85,84",84.66
+368,PATIENT_368,52,Female,no,no,no,"90,89,87",88.66
+369,PATIENT_369,53,Female,No,no,no,"80,81,81.8",80.93
+370,PATIENT_370,55,Female,no,no,no,"78,78,78.5",78.16
+371,PATIENT_371,55,Female,no,no,no,"77.5,76,78",78.0
+372,PATIENT_372,56,Female,no,no,no,"79.4,80,80",79.8
+373,PATIENT_373,56,Female,No,no,no,"77,76,78",77.0
+374,PATIENT_374,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+375,PATIENT_375,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+376,PATIENT_376,57,Female,No,uteres removal,no,"72,73,71",72.0
+377,PATIENT_377,57,Male,no,no,no,"81,82.5,80",81.16
+378,PATIENT_378,60,Female,No,no,no,"72.1,73,73",72.7
+379,PATIENT_379,60,Female,No,no,no,"69,71,72",70.66
+380,PATIENT_380,61,Female,no,no,no,"70,69.5,69",69.5
+381,PATIENT_381,62,male,no,no,no,"67,66.2,65",66.0
+382,PATIENT_382,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+383,PATIENT_383,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+384,PATIENT_384,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+385,PATIENT_385,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+386,PATIENT_386,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+387,PATIENT_387,66,Male,no,no,no,"69,68,70",69.0
+388,PATIENT_388,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+389,PATIENT_389,67,Male,no,no,no,"66,68,69",67.66
+390,PATIENT_390,68,Female,no,no,no,"61, 60, 63",61.33
+391,PATIENT_391,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+392,PATIENT_392,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+393,PATIENT_393,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+394,PATIENT_394,69,Female,no,no,no,"66,65,65.5",65.8
+395,PATIENT_395,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+396,PATIENT_396,72,Male,no,no,no,"68, 69, 68",68.3
+397,PATIENT_397,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+398,PATIENT_398,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+399,PATIENT_399,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+400,PATIENT_400,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+401,PATIENT_401,29,Male,no,no,no,"115, 115, 113",114.3
+402,PATIENT_402,36,Female,no,no,no,"95,94,96",94.0
+403,PATIENT_403,37,Male,no,no,no,"80,82,81",81.0
+404,PATIENT_404,37,Female,no,no,no,"100, 101, 100",100.33
+405,PATIENT_405,38,female,no,no,no,99100100.4,99.8
+406,PATIENT_406,39,Female,No,no,no,"99,99.5,101",99.83
+407,PATIENT_407,39,Female,no,no,no,"100, 99, 100.5",99.8
+408,PATIENT_408,41,Female,no,no,no,"99,95.5,98",98.3
+409,PATIENT_409,42,Female,No,no,no,"86,89,90",88.33
+410,PATIENT_410,44,Female,no,no,no,"90,91,92",91.0
+411,PATIENT_411,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+412,PATIENT_412,45,Female,no,no,no,"89,88,88",88.33
+413,PATIENT_413,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+414,PATIENT_414,48,Female,no,no,no,"86,86.2,85",85.77
+415,PATIENT_415,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+416,PATIENT_416,52,Female,no,no,no,"79,80,81",80.0
+417,PATIENT_417,52,Female,yes(bp),no,no,"85,85,84",84.66
+418,PATIENT_418,52,Female,no,no,no,"90,89,87",88.66
+419,PATIENT_419,53,Female,No,no,no,"80,81,81.8",80.93
+420,PATIENT_420,55,Female,no,no,no,"78,78,78.5",78.16
+421,PATIENT_421,55,Female,no,no,no,"77.5,76,78",78.0
+422,PATIENT_422,56,Female,no,no,no,"79.4,80,80",79.8
+423,PATIENT_423,56,Female,No,no,no,"77,76,78",77.0
+424,PATIENT_424,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+425,PATIENT_425,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+426,PATIENT_426,57,Female,No,uteres removal,no,"72,73,71",72.0
+427,PATIENT_427,57,Male,no,no,no,"81,82.5,80",81.16
+428,PATIENT_428,60,Female,No,no,no,"72.1,73,73",72.7
+429,PATIENT_429,60,Female,No,no,no,"69,71,72",70.66
+430,PATIENT_430,61,Female,no,no,no,"70,69.5,69",69.5
+431,PATIENT_431,62,male,no,no,no,"67,66.2,65",66.0
+432,PATIENT_432,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+433,PATIENT_433,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+434,PATIENT_434,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+435,PATIENT_435,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+436,PATIENT_436,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+437,PATIENT_437,66,Male,no,no,no,"69,68,70",69.0
+438,PATIENT_438,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+439,PATIENT_439,67,Male,no,no,no,"66,68,69",67.66
+440,PATIENT_440,68,Female,no,no,no,"61, 60, 63",61.33
+441,PATIENT_441,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+442,PATIENT_442,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+443,PATIENT_443,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+444,PATIENT_444,69,Female,no,no,no,"66,65,65.5",65.8
+445,PATIENT_445,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+446,PATIENT_446,72,Male,no,no,no,"68, 69, 68",68.3
+447,PATIENT_447,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+448,PATIENT_448,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+449,PATIENT_449,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+450,PATIENT_450,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+451,PATIENT_451,29,Male,no,no,no,"115, 115, 113",114.3
+452,PATIENT_452,36,Female,no,no,no,"95,94,96",94.0
+453,PATIENT_453,37,Male,no,no,no,"80,82,81",81.0
+454,PATIENT_454,37,Female,no,no,no,"100, 101, 100",100.33
+455,PATIENT_455,38,female,no,no,no,99100100.4,99.8
+456,PATIENT_456,39,Female,No,no,no,"99,99.5,101",99.83
+457,PATIENT_457,39,Female,no,no,no,"100, 99, 100.5",99.8
+458,PATIENT_458,41,Female,no,no,no,"99,95.5,98",98.3
+459,PATIENT_459,42,Female,No,no,no,"86,89,90",88.33
+460,PATIENT_460,44,Female,no,no,no,"90,91,92",91.0
+461,PATIENT_461,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+462,PATIENT_462,45,Female,no,no,no,"89,88,88",88.33
+463,PATIENT_463,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+464,PATIENT_464,48,Female,no,no,no,"86,86.2,85",85.77
+465,PATIENT_465,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+466,PATIENT_466,52,Female,no,no,no,"79,80,81",80.0
+467,PATIENT_467,52,Female,yes(bp),no,no,"85,85,84",84.66
+468,PATIENT_468,52,Female,no,no,no,"90,89,87",88.66
+469,PATIENT_469,53,Female,No,no,no,"80,81,81.8",80.93
+470,PATIENT_470,55,Female,no,no,no,"78,78,78.5",78.16
+471,PATIENT_471,55,Female,no,no,no,"77.5,76,78",78.0
+472,PATIENT_472,56,Female,no,no,no,"79.4,80,80",79.8
+473,PATIENT_473,56,Female,No,no,no,"77,76,78",77.0
+474,PATIENT_474,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+475,PATIENT_475,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+476,PATIENT_476,57,Female,No,uteres removal,no,"72,73,71",72.0
+477,PATIENT_477,57,Male,no,no,no,"81,82.5,80",81.16
+478,PATIENT_478,60,Female,No,no,no,"72.1,73,73",72.7
+479,PATIENT_479,60,Female,No,no,no,"69,71,72",70.66
+480,PATIENT_480,61,Female,no,no,no,"70,69.5,69",69.5
+481,PATIENT_481,62,male,no,no,no,"67,66.2,65",66.0
+482,PATIENT_482,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+483,PATIENT_483,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+484,PATIENT_484,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+485,PATIENT_485,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+486,PATIENT_486,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+487,PATIENT_487,66,Male,no,no,no,"69,68,70",69.0
+488,PATIENT_488,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+489,PATIENT_489,67,Male,no,no,no,"66,68,69",67.66
+490,PATIENT_490,68,Female,no,no,no,"61, 60, 63",61.33
+491,PATIENT_491,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+492,PATIENT_492,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+493,PATIENT_493,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+494,PATIENT_494,69,Female,no,no,no,"66,65,65.5",65.8
+495,PATIENT_495,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+496,PATIENT_496,72,Male,no,no,no,"68, 69, 68",68.3
+497,PATIENT_497,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+498,PATIENT_498,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+499,PATIENT_499,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+500,PATIENT_500,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+501,PATIENT_501,29,Male,no,no,no,"115, 115, 113",114.3
+502,PATIENT_502,36,Female,no,no,no,"95,94,96",94.0
+503,PATIENT_503,37,Male,no,no,no,"80,82,81",81.0
+504,PATIENT_504,37,Female,no,no,no,"100, 101, 100",100.33
+505,PATIENT_505,38,female,no,no,no,99100100.4,99.8
+506,PATIENT_506,39,Female,No,no,no,"99,99.5,101",99.83
+507,PATIENT_507,39,Female,no,no,no,"100, 99, 100.5",99.8
+508,PATIENT_508,41,Female,no,no,no,"99,95.5,98",98.3
+509,PATIENT_509,42,Female,No,no,no,"86,89,90",88.33
+510,PATIENT_510,44,Female,no,no,no,"90,91,92",91.0
+511,PATIENT_511,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+512,PATIENT_512,45,Female,no,no,no,"89,88,88",88.33
+513,PATIENT_513,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+514,PATIENT_514,48,Female,no,no,no,"86,86.2,85",85.77
+515,PATIENT_515,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+516,PATIENT_516,52,Female,no,no,no,"79,80,81",80.0
+517,PATIENT_517,52,Female,yes(bp),no,no,"85,85,84",84.66
+518,PATIENT_518,52,Female,no,no,no,"90,89,87",88.66
+519,PATIENT_519,53,Female,No,no,no,"80,81,81.8",80.93
+520,PATIENT_520,55,Female,no,no,no,"78,78,78.5",78.16
+521,PATIENT_521,55,Female,no,no,no,"77.5,76,78",78.0
+522,PATIENT_522,56,Female,no,no,no,"79.4,80,80",79.8
+523,PATIENT_523,56,Female,No,no,no,"77,76,78",77.0
+524,PATIENT_524,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+525,PATIENT_525,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+526,PATIENT_526,57,Female,No,uteres removal,no,"72,73,71",72.0
+527,PATIENT_527,57,Male,no,no,no,"81,82.5,80",81.16
+528,PATIENT_528,60,Female,No,no,no,"72.1,73,73",72.7
+529,PATIENT_529,60,Female,No,no,no,"69,71,72",70.66
+530,PATIENT_530,61,Female,no,no,no,"70,69.5,69",69.5
+531,PATIENT_531,62,male,no,no,no,"67,66.2,65",66.0
+532,PATIENT_532,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+533,PATIENT_533,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+534,PATIENT_534,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+535,PATIENT_535,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+536,PATIENT_536,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+537,PATIENT_537,66,Male,no,no,no,"69,68,70",69.0
+538,PATIENT_538,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+539,PATIENT_539,67,Male,no,no,no,"66,68,69",67.66
+540,PATIENT_540,68,Female,no,no,no,"61, 60, 63",61.33
+541,PATIENT_541,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+542,PATIENT_542,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+543,PATIENT_543,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+544,PATIENT_544,69,Female,no,no,no,"66,65,65.5",65.8
+545,PATIENT_545,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+546,PATIENT_546,72,Male,no,no,no,"68, 69, 68",68.3
+547,PATIENT_547,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+548,PATIENT_548,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+549,PATIENT_549,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+550,PATIENT_550,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+551,PATIENT_551,29,Male,no,no,no,"115, 115, 113",114.3
+552,PATIENT_552,36,Female,no,no,no,"95,94,96",94.0
+553,PATIENT_553,37,Male,no,no,no,"80,82,81",81.0
+554,PATIENT_554,37,Female,no,no,no,"100, 101, 100",100.33
+555,PATIENT_555,38,female,no,no,no,99100100.4,99.8
+556,PATIENT_556,39,Female,No,no,no,"99,99.5,101",99.83
+557,PATIENT_557,39,Female,no,no,no,"100, 99, 100.5",99.8
+558,PATIENT_558,41,Female,no,no,no,"99,95.5,98",98.3
+559,PATIENT_559,42,Female,No,no,no,"86,89,90",88.33
+560,PATIENT_560,44,Female,no,no,no,"90,91,92",91.0
+561,PATIENT_561,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+562,PATIENT_562,45,Female,no,no,no,"89,88,88",88.33
+563,PATIENT_563,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+564,PATIENT_564,48,Female,no,no,no,"86,86.2,85",85.77
+565,PATIENT_565,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+566,PATIENT_566,52,Female,no,no,no,"79,80,81",80.0
+567,PATIENT_567,52,Female,yes(bp),no,no,"85,85,84",84.66
+568,PATIENT_568,52,Female,no,no,no,"90,89,87",88.66
+569,PATIENT_569,53,Female,No,no,no,"80,81,81.8",80.93
+570,PATIENT_570,55,Female,no,no,no,"78,78,78.5",78.16
+571,PATIENT_571,55,Female,no,no,no,"77.5,76,78",78.0
+572,PATIENT_572,56,Female,no,no,no,"79.4,80,80",79.8
+573,PATIENT_573,56,Female,No,no,no,"77,76,78",77.0
+574,PATIENT_574,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+575,PATIENT_575,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+576,PATIENT_576,57,Female,No,uteres removal,no,"72,73,71",72.0
+577,PATIENT_577,57,Male,no,no,no,"81,82.5,80",81.16
+578,PATIENT_578,60,Female,No,no,no,"72.1,73,73",72.7
+579,PATIENT_579,60,Female,No,no,no,"69,71,72",70.66
+580,PATIENT_580,61,Female,no,no,no,"70,69.5,69",69.5
+581,PATIENT_581,62,male,no,no,no,"67,66.2,65",66.0
+582,PATIENT_582,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+583,PATIENT_583,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+584,PATIENT_584,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+585,PATIENT_585,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+586,PATIENT_586,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+587,PATIENT_587,66,Male,no,no,no,"69,68,70",69.0
+588,PATIENT_588,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+589,PATIENT_589,67,Male,no,no,no,"66,68,69",67.66
+590,PATIENT_590,68,Female,no,no,no,"61, 60, 63",61.33
+591,PATIENT_591,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+592,PATIENT_592,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+593,PATIENT_593,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+594,PATIENT_594,69,Female,no,no,no,"66,65,65.5",65.8
+595,PATIENT_595,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+596,PATIENT_596,72,Male,no,no,no,"68, 69, 68",68.3
+597,PATIENT_597,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+598,PATIENT_598,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+599,PATIENT_599,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+600,PATIENT_600,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+601,PATIENT_601,29,Male,no,no,no,"115, 115, 113",114.3
+602,PATIENT_602,36,Female,no,no,no,"95,94,96",94.0
+603,PATIENT_603,37,Male,no,no,no,"80,82,81",81.0
+604,PATIENT_604,37,Female,no,no,no,"100, 101, 100",100.33
+605,PATIENT_605,38,female,no,no,no,99100100.4,99.8
+606,PATIENT_606,39,Female,No,no,no,"99,99.5,101",99.83
+607,PATIENT_607,39,Female,no,no,no,"100, 99, 100.5",99.8
+608,PATIENT_608,41,Female,no,no,no,"99,95.5,98",98.3
+609,PATIENT_609,42,Female,No,no,no,"86,89,90",88.33
+610,PATIENT_610,44,Female,no,no,no,"90,91,92",91.0
+611,PATIENT_611,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+612,PATIENT_612,45,Female,no,no,no,"89,88,88",88.33
+613,PATIENT_613,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+614,PATIENT_614,48,Female,no,no,no,"86,86.2,85",85.77
+615,PATIENT_615,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+616,PATIENT_616,52,Female,no,no,no,"79,80,81",80.0
+617,PATIENT_617,52,Female,yes(bp),no,no,"85,85,84",84.66
+618,PATIENT_618,52,Female,no,no,no,"90,89,87",88.66
+619,PATIENT_619,53,Female,No,no,no,"80,81,81.8",80.93
+620,PATIENT_620,55,Female,no,no,no,"78,78,78.5",78.16
+621,PATIENT_621,55,Female,no,no,no,"77.5,76,78",78.0
+622,PATIENT_622,56,Female,no,no,no,"79.4,80,80",79.8
+623,PATIENT_623,56,Female,No,no,no,"77,76,78",77.0
+624,PATIENT_624,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+625,PATIENT_625,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+626,PATIENT_626,57,Female,No,uteres removal,no,"72,73,71",72.0
+627,PATIENT_627,57,Male,no,no,no,"81,82.5,80",81.16
+628,PATIENT_628,60,Female,No,no,no,"72.1,73,73",72.7
+629,PATIENT_629,60,Female,No,no,no,"69,71,72",70.66
+630,PATIENT_630,61,Female,no,no,no,"70,69.5,69",69.5
+631,PATIENT_631,62,male,no,no,no,"67,66.2,65",66.0
+632,PATIENT_632,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+633,PATIENT_633,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+634,PATIENT_634,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+635,PATIENT_635,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+636,PATIENT_636,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+637,PATIENT_637,66,Male,no,no,no,"69,68,70",69.0
+638,PATIENT_638,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+639,PATIENT_639,67,Male,no,no,no,"66,68,69",67.66
+640,PATIENT_640,68,Female,no,no,no,"61, 60, 63",61.33
+641,PATIENT_641,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+642,PATIENT_642,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+643,PATIENT_643,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+644,PATIENT_644,69,Female,no,no,no,"66,65,65.5",65.8
+645,PATIENT_645,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+646,PATIENT_646,72,Male,no,no,no,"68, 69, 68",68.3
+647,PATIENT_647,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+648,PATIENT_648,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+649,PATIENT_649,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+650,PATIENT_650,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+651,PATIENT_651,29,Male,no,no,no,"115, 115, 113",114.3
+652,PATIENT_652,36,Female,no,no,no,"95,94,96",94.0
+653,PATIENT_653,37,Male,no,no,no,"80,82,81",81.0
+654,PATIENT_654,37,Female,no,no,no,"100, 101, 100",100.33
+655,PATIENT_655,38,female,no,no,no,99100100.4,99.8
+656,PATIENT_656,39,Female,No,no,no,"99,99.5,101",99.83
+657,PATIENT_657,39,Female,no,no,no,"100, 99, 100.5",99.8
+658,PATIENT_658,41,Female,no,no,no,"99,95.5,98",98.3
+659,PATIENT_659,42,Female,No,no,no,"86,89,90",88.33
+660,PATIENT_660,44,Female,no,no,no,"90,91,92",91.0
+661,PATIENT_661,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+662,PATIENT_662,45,Female,no,no,no,"89,88,88",88.33
+663,PATIENT_663,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+664,PATIENT_664,48,Female,no,no,no,"86,86.2,85",85.77
+665,PATIENT_665,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+666,PATIENT_666,52,Female,no,no,no,"79,80,81",80.0
+667,PATIENT_667,52,Female,yes(bp),no,no,"85,85,84",84.66
+668,PATIENT_668,52,Female,no,no,no,"90,89,87",88.66
+669,PATIENT_669,53,Female,No,no,no,"80,81,81.8",80.93
+670,PATIENT_670,55,Female,no,no,no,"78,78,78.5",78.16
+671,PATIENT_671,55,Female,no,no,no,"77.5,76,78",78.0
+672,PATIENT_672,56,Female,no,no,no,"79.4,80,80",79.8
+673,PATIENT_673,56,Female,No,no,no,"77,76,78",77.0
+674,PATIENT_674,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+675,PATIENT_675,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+676,PATIENT_676,57,Female,No,uteres removal,no,"72,73,71",72.0
+677,PATIENT_677,57,Male,no,no,no,"81,82.5,80",81.16
+678,PATIENT_678,60,Female,No,no,no,"72.1,73,73",72.7
+679,PATIENT_679,60,Female,No,no,no,"69,71,72",70.66
+680,PATIENT_680,61,Female,no,no,no,"70,69.5,69",69.5
+681,PATIENT_681,62,male,no,no,no,"67,66.2,65",66.0
+682,PATIENT_682,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+683,PATIENT_683,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+684,PATIENT_684,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+685,PATIENT_685,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+686,PATIENT_686,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+687,PATIENT_687,66,Male,no,no,no,"69,68,70",69.0
+688,PATIENT_688,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+689,PATIENT_689,67,Male,no,no,no,"66,68,69",67.66
+690,PATIENT_690,68,Female,no,no,no,"61, 60, 63",61.33
+691,PATIENT_691,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+692,PATIENT_692,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+693,PATIENT_693,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+694,PATIENT_694,69,Female,no,no,no,"66,65,65.5",65.8
+695,PATIENT_695,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+696,PATIENT_696,72,Male,no,no,no,"68, 69, 68",68.3
+697,PATIENT_697,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+698,PATIENT_698,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+699,PATIENT_699,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+700,PATIENT_700,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+701,PATIENT_701,29,Male,no,no,no,"115, 115, 113",114.3
+702,PATIENT_702,36,Female,no,no,no,"95,94,96",94.0
+703,PATIENT_703,37,Male,no,no,no,"80,82,81",81.0
+704,PATIENT_704,37,Female,no,no,no,"100, 101, 100",100.33
+705,PATIENT_705,38,female,no,no,no,99100100.4,99.8
+706,PATIENT_706,39,Female,No,no,no,"99,99.5,101",99.83
+707,PATIENT_707,39,Female,no,no,no,"100, 99, 100.5",99.8
+708,PATIENT_708,41,Female,no,no,no,"99,95.5,98",98.3
+709,PATIENT_709,42,Female,No,no,no,"86,89,90",88.33
+710,PATIENT_710,44,Female,no,no,no,"90,91,92",91.0
+711,PATIENT_711,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+712,PATIENT_712,45,Female,no,no,no,"89,88,88",88.33
+713,PATIENT_713,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+714,PATIENT_714,48,Female,no,no,no,"86,86.2,85",85.77
+715,PATIENT_715,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+716,PATIENT_716,52,Female,no,no,no,"79,80,81",80.0
+717,PATIENT_717,52,Female,yes(bp),no,no,"85,85,84",84.66
+718,PATIENT_718,52,Female,no,no,no,"90,89,87",88.66
+719,PATIENT_719,53,Female,No,no,no,"80,81,81.8",80.93
+720,PATIENT_720,55,Female,no,no,no,"78,78,78.5",78.16
+721,PATIENT_721,55,Female,no,no,no,"77.5,76,78",78.0
+722,PATIENT_722,56,Female,no,no,no,"79.4,80,80",79.8
+723,PATIENT_723,56,Female,No,no,no,"77,76,78",77.0
+724,PATIENT_724,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+725,PATIENT_725,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+726,PATIENT_726,57,Female,No,uteres removal,no,"72,73,71",72.0
+727,PATIENT_727,57,Male,no,no,no,"81,82.5,80",81.16
+728,PATIENT_728,60,Female,No,no,no,"72.1,73,73",72.7
+729,PATIENT_729,60,Female,No,no,no,"69,71,72",70.66
+730,PATIENT_730,61,Female,no,no,no,"70,69.5,69",69.5
+731,PATIENT_731,62,male,no,no,no,"67,66.2,65",66.0
+732,PATIENT_732,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+733,PATIENT_733,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+734,PATIENT_734,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+735,PATIENT_735,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+736,PATIENT_736,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+737,PATIENT_737,66,Male,no,no,no,"69,68,70",69.0
+738,PATIENT_738,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+739,PATIENT_739,67,Male,no,no,no,"66,68,69",67.66
+740,PATIENT_740,68,Female,no,no,no,"61, 60, 63",61.33
+741,PATIENT_741,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+742,PATIENT_742,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+743,PATIENT_743,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+744,PATIENT_744,69,Female,no,no,no,"66,65,65.5",65.8
+745,PATIENT_745,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+746,PATIENT_746,72,Male,no,no,no,"68, 69, 68",68.3
+747,PATIENT_747,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+748,PATIENT_748,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+749,PATIENT_749,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+750,PATIENT_750,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+751,PATIENT_751,29,Male,no,no,no,"115, 115, 113",114.3
+752,PATIENT_752,36,Female,no,no,no,"95,94,96",94.0
+753,PATIENT_753,37,Male,no,no,no,"80,82,81",81.0
+754,PATIENT_754,37,Female,no,no,no,"100, 101, 100",100.33
+755,PATIENT_755,38,female,no,no,no,99100100.4,99.8
+756,PATIENT_756,39,Female,No,no,no,"99,99.5,101",99.83
+757,PATIENT_757,39,Female,no,no,no,"100, 99, 100.5",99.8
+758,PATIENT_758,41,Female,no,no,no,"99,95.5,98",98.3
+759,PATIENT_759,42,Female,No,no,no,"86,89,90",88.33
+760,PATIENT_760,44,Female,no,no,no,"90,91,92",91.0
+761,PATIENT_761,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+762,PATIENT_762,45,Female,no,no,no,"89,88,88",88.33
+763,PATIENT_763,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+764,PATIENT_764,48,Female,no,no,no,"86,86.2,85",85.77
+765,PATIENT_765,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+766,PATIENT_766,52,Female,no,no,no,"79,80,81",80.0
+767,PATIENT_767,52,Female,yes(bp),no,no,"85,85,84",84.66
+768,PATIENT_768,52,Female,no,no,no,"90,89,87",88.66
+769,PATIENT_769,53,Female,No,no,no,"80,81,81.8",80.93
+770,PATIENT_770,55,Female,no,no,no,"78,78,78.5",78.16
+771,PATIENT_771,55,Female,no,no,no,"77.5,76,78",78.0
+772,PATIENT_772,56,Female,no,no,no,"79.4,80,80",79.8
+773,PATIENT_773,56,Female,No,no,no,"77,76,78",77.0
+774,PATIENT_774,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+775,PATIENT_775,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+776,PATIENT_776,57,Female,No,uteres removal,no,"72,73,71",72.0
+777,PATIENT_777,57,Male,no,no,no,"81,82.5,80",81.16
+778,PATIENT_778,60,Female,No,no,no,"72.1,73,73",72.7
+779,PATIENT_779,60,Female,No,no,no,"69,71,72",70.66
+780,PATIENT_780,61,Female,no,no,no,"70,69.5,69",69.5
+781,PATIENT_781,62,male,no,no,no,"67,66.2,65",66.0
+782,PATIENT_782,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+783,PATIENT_783,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+784,PATIENT_784,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+785,PATIENT_785,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+786,PATIENT_786,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+787,PATIENT_787,66,Male,no,no,no,"69,68,70",69.0
+788,PATIENT_788,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+789,PATIENT_789,67,Male,no,no,no,"66,68,69",67.66
+790,PATIENT_790,68,Female,no,no,no,"61, 60, 63",61.33
+791,PATIENT_791,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+792,PATIENT_792,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+793,PATIENT_793,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+794,PATIENT_794,69,Female,no,no,no,"66,65,65.5",65.8
+795,PATIENT_795,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+796,PATIENT_796,72,Male,no,no,no,"68, 69, 68",68.3
+797,PATIENT_797,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+798,PATIENT_798,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+799,PATIENT_799,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+800,PATIENT_800,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+801,PATIENT_801,29,Male,no,no,no,"115, 115, 113",114.3
+802,PATIENT_802,36,Female,no,no,no,"95,94,96",94.0
+803,PATIENT_803,37,Male,no,no,no,"80,82,81",81.0
+804,PATIENT_804,37,Female,no,no,no,"100, 101, 100",100.33
+805,PATIENT_805,38,female,no,no,no,99100100.4,99.8
+806,PATIENT_806,39,Female,No,no,no,"99,99.5,101",99.83
+807,PATIENT_807,39,Female,no,no,no,"100, 99, 100.5",99.8
+808,PATIENT_808,41,Female,no,no,no,"99,95.5,98",98.3
+809,PATIENT_809,42,Female,No,no,no,"86,89,90",88.33
+810,PATIENT_810,44,Female,no,no,no,"90,91,92",91.0
+811,PATIENT_811,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+812,PATIENT_812,45,Female,no,no,no,"89,88,88",88.33
+813,PATIENT_813,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+814,PATIENT_814,48,Female,no,no,no,"86,86.2,85",85.77
+815,PATIENT_815,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+816,PATIENT_816,52,Female,no,no,no,"79,80,81",80.0
+817,PATIENT_817,52,Female,yes(bp),no,no,"85,85,84",84.66
+818,PATIENT_818,52,Female,no,no,no,"90,89,87",88.66
+819,PATIENT_819,53,Female,No,no,no,"80,81,81.8",80.93
+820,PATIENT_820,55,Female,no,no,no,"78,78,78.5",78.16
+821,PATIENT_821,55,Female,no,no,no,"77.5,76,78",78.0
+822,PATIENT_822,56,Female,no,no,no,"79.4,80,80",79.8
+823,PATIENT_823,56,Female,No,no,no,"77,76,78",77.0
+824,PATIENT_824,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+825,PATIENT_825,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+826,PATIENT_826,57,Female,No,uteres removal,no,"72,73,71",72.0
+827,PATIENT_827,57,Male,no,no,no,"81,82.5,80",81.16
+828,PATIENT_828,60,Female,No,no,no,"72.1,73,73",72.7
+829,PATIENT_829,60,Female,No,no,no,"69,71,72",70.66
+830,PATIENT_830,61,Female,no,no,no,"70,69.5,69",69.5
+831,PATIENT_831,62,male,no,no,no,"67,66.2,65",66.0
+832,PATIENT_832,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+833,PATIENT_833,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+834,PATIENT_834,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+835,PATIENT_835,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+836,PATIENT_836,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+837,PATIENT_837,66,Male,no,no,no,"69,68,70",69.0
+838,PATIENT_838,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+839,PATIENT_839,67,Male,no,no,no,"66,68,69",67.66
+840,PATIENT_840,68,Female,no,no,no,"61, 60, 63",61.33
+841,PATIENT_841,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+842,PATIENT_842,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+843,PATIENT_843,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+844,PATIENT_844,69,Female,no,no,no,"66,65,65.5",65.8
+845,PATIENT_845,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+846,PATIENT_846,72,Male,no,no,no,"68, 69, 68",68.3
+847,PATIENT_847,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+848,PATIENT_848,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+849,PATIENT_849,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+850,PATIENT_850,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+851,PATIENT_851,29,Male,no,no,no,"115, 115, 113",114.3
+852,PATIENT_852,36,Female,no,no,no,"95,94,96",94.0
+853,PATIENT_853,37,Male,no,no,no,"80,82,81",81.0
+854,PATIENT_854,37,Female,no,no,no,"100, 101, 100",100.33
+855,PATIENT_855,38,female,no,no,no,99100100.4,99.8
+856,PATIENT_856,39,Female,No,no,no,"99,99.5,101",99.83
+857,PATIENT_857,39,Female,no,no,no,"100, 99, 100.5",99.8
+858,PATIENT_858,41,Female,no,no,no,"99,95.5,98",98.3
+859,PATIENT_859,42,Female,No,no,no,"86,89,90",88.33
+860,PATIENT_860,44,Female,no,no,no,"90,91,92",91.0
+861,PATIENT_861,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+862,PATIENT_862,45,Female,no,no,no,"89,88,88",88.33
+863,PATIENT_863,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+864,PATIENT_864,48,Female,no,no,no,"86,86.2,85",85.77
+865,PATIENT_865,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+866,PATIENT_866,52,Female,no,no,no,"79,80,81",80.0
+867,PATIENT_867,52,Female,yes(bp),no,no,"85,85,84",84.66
+868,PATIENT_868,52,Female,no,no,no,"90,89,87",88.66
+869,PATIENT_869,53,Female,No,no,no,"80,81,81.8",80.93
+870,PATIENT_870,55,Female,no,no,no,"78,78,78.5",78.16
+871,PATIENT_871,55,Female,no,no,no,"77.5,76,78",78.0
+872,PATIENT_872,56,Female,no,no,no,"79.4,80,80",79.8
+873,PATIENT_873,56,Female,No,no,no,"77,76,78",77.0
+874,PATIENT_874,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+875,PATIENT_875,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+876,PATIENT_876,57,Female,No,uteres removal,no,"72,73,71",72.0
+877,PATIENT_877,57,Male,no,no,no,"81,82.5,80",81.16
+878,PATIENT_878,60,Female,No,no,no,"72.1,73,73",72.7
+879,PATIENT_879,60,Female,No,no,no,"69,71,72",70.66
+880,PATIENT_880,61,Female,no,no,no,"70,69.5,69",69.5
+881,PATIENT_881,62,male,no,no,no,"67,66.2,65",66.0
+882,PATIENT_882,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+883,PATIENT_883,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+884,PATIENT_884,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+885,PATIENT_885,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+886,PATIENT_886,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+887,PATIENT_887,66,Male,no,no,no,"69,68,70",69.0
+888,PATIENT_888,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+889,PATIENT_889,67,Male,no,no,no,"66,68,69",67.66
+890,PATIENT_890,68,Female,no,no,no,"61, 60, 63",61.33
+891,PATIENT_891,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+892,PATIENT_892,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+893,PATIENT_893,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+894,PATIENT_894,69,Female,no,no,no,"66,65,65.5",65.8
+895,PATIENT_895,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+896,PATIENT_896,72,Male,no,no,no,"68, 69, 68",68.3
+897,PATIENT_897,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+898,PATIENT_898,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+899,PATIENT_899,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+900,PATIENT_900,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+901,PATIENT_901,29,Male,no,no,no,"115, 115, 113",114.3
+902,PATIENT_902,36,Female,no,no,no,"95,94,96",94.0
+903,PATIENT_903,37,Male,no,no,no,"80,82,81",81.0
+904,PATIENT_904,37,Female,no,no,no,"100, 101, 100",100.33
+905,PATIENT_905,38,female,no,no,no,99100100.4,99.8
+906,PATIENT_906,39,Female,No,no,no,"99,99.5,101",99.83
+907,PATIENT_907,39,Female,no,no,no,"100, 99, 100.5",99.8
+908,PATIENT_908,41,Female,no,no,no,"99,95.5,98",98.3
+909,PATIENT_909,42,Female,No,no,no,"86,89,90",88.33
+910,PATIENT_910,44,Female,no,no,no,"90,91,92",91.0
+911,PATIENT_911,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+912,PATIENT_912,45,Female,no,no,no,"89,88,88",88.33
+913,PATIENT_913,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+914,PATIENT_914,48,Female,no,no,no,"86,86.2,85",85.77
+915,PATIENT_915,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+916,PATIENT_916,52,Female,no,no,no,"79,80,81",80.0
+917,PATIENT_917,52,Female,yes(bp),no,no,"85,85,84",84.66
+918,PATIENT_918,52,Female,no,no,no,"90,89,87",88.66
+919,PATIENT_919,53,Female,No,no,no,"80,81,81.8",80.93
+920,PATIENT_920,55,Female,no,no,no,"78,78,78.5",78.16
+921,PATIENT_921,55,Female,no,no,no,"77.5,76,78",78.0
+922,PATIENT_922,56,Female,no,no,no,"79.4,80,80",79.8
+923,PATIENT_923,56,Female,No,no,no,"77,76,78",77.0
+924,PATIENT_924,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+925,PATIENT_925,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+926,PATIENT_926,57,Female,No,uteres removal,no,"72,73,71",72.0
+927,PATIENT_927,57,Male,no,no,no,"81,82.5,80",81.16
+928,PATIENT_928,60,Female,No,no,no,"72.1,73,73",72.7
+929,PATIENT_929,60,Female,No,no,no,"69,71,72",70.66
+930,PATIENT_930,61,Female,no,no,no,"70,69.5,69",69.5
+931,PATIENT_931,62,male,no,no,no,"67,66.2,65",66.0
+932,PATIENT_932,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+933,PATIENT_933,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+934,PATIENT_934,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+935,PATIENT_935,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+936,PATIENT_936,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+937,PATIENT_937,66,Male,no,no,no,"69,68,70",69.0
+938,PATIENT_938,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+939,PATIENT_939,67,Male,no,no,no,"66,68,69",67.66
+940,PATIENT_940,68,Female,no,no,no,"61, 60, 63",61.33
+941,PATIENT_941,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+942,PATIENT_942,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+943,PATIENT_943,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+944,PATIENT_944,69,Female,no,no,no,"66,65,65.5",65.8
+945,PATIENT_945,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+946,PATIENT_946,72,Male,no,no,no,"68, 69, 68",68.3
+947,PATIENT_947,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+948,PATIENT_948,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+949,PATIENT_949,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+950,PATIENT_950,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0
+951,PATIENT_951,29,Male,no,no,no,"115, 115, 113",114.3
+952,PATIENT_952,36,Female,no,no,no,"95,94,96",94.0
+953,PATIENT_953,37,Male,no,no,no,"80,82,81",81.0
+954,PATIENT_954,37,Female,no,no,no,"100, 101, 100",100.33
+955,PATIENT_955,38,female,no,no,no,99100100.4,99.8
+956,PATIENT_956,39,Female,No,no,no,"99,99.5,101",99.83
+957,PATIENT_957,39,Female,no,no,no,"100, 99, 100.5",99.8
+958,PATIENT_958,41,Female,no,no,no,"99,95.5,98",98.3
+959,PATIENT_959,42,Female,No,no,no,"86,89,90",88.33
+960,PATIENT_960,44,Female,no,no,no,"90,91,92",91.0
+961,PATIENT_961,45,Female,yes(diabetes),no,no,"91,89.2,89",89.77
+962,PATIENT_962,45,Female,no,no,no,"89,88,88",88.33
+963,PATIENT_963,45,Female,no,vericose vein surgery,no,"85,83,84",84.0
+964,PATIENT_964,48,Female,no,no,no,"86,86.2,85",85.77
+965,PATIENT_965,49,Female,yes (diabetes),no,yes,"90,92,93",91.67
+966,PATIENT_966,52,Female,no,no,no,"79,80,81",80.0
+967,PATIENT_967,52,Female,yes(bp),no,no,"85,85,84",84.66
+968,PATIENT_968,52,Female,no,no,no,"90,89,87",88.66
+969,PATIENT_969,53,Female,No,no,no,"80,81,81.8",80.93
+970,PATIENT_970,55,Female,no,no,no,"78,78,78.5",78.16
+971,PATIENT_971,55,Female,no,no,no,"77.5,76,78",78.0
+972,PATIENT_972,56,Female,no,no,no,"79.4,80,80",79.8
+973,PATIENT_973,56,Female,No,no,no,"77,76,78",77.0
+974,PATIENT_974,56,Female,yes(diabetes),no,no,"77, 78, 77",77.3
+975,PATIENT_975,56,Female,yes(bp),no,no,"72,73.5,73",72.88
+976,PATIENT_976,57,Female,No,uteres removal,no,"72,73,71",72.0
+977,PATIENT_977,57,Male,no,no,no,"81,82.5,80",81.16
+978,PATIENT_978,60,Female,No,no,no,"72.1,73,73",72.7
+979,PATIENT_979,60,Female,No,no,no,"69,71,72",70.66
+980,PATIENT_980,61,Female,no,no,no,"70,69.5,69",69.5
+981,PATIENT_981,62,male,no,no,no,"67,66.2,65",66.0
+982,PATIENT_982,62,Female,kidney stone,kidney stone opreration,yes,"75,76,76.2",75.7
+983,PATIENT_983,63,Female,yes(diabetes),no,no,"71,70,71",70.66
+984,PATIENT_984,64,Female,yes(increase in heart rate),uterus surgery,yes,"65, 64, 63.5",64.166
+985,PATIENT_985,66,Female,"Yes(Diabetes,bp)",no,yes,"72,70,71",71.0
+986,PATIENT_986,66,Female,yes(bp dabetes),no,no,"68,69,69",68.66
+987,PATIENT_987,66,Male,no,no,no,"69,68,70",69.0
+988,PATIENT_988,67,Male,yes(diabetes),no,yes,"69,68,70",69.0
+989,PATIENT_989,67,Male,no,no,no,"66,68,69",67.66
+990,PATIENT_990,68,Female,no,no,no,"61, 60, 63",61.33
+991,PATIENT_991,68,Male,No,yes(diverticulities),yes(ecosprin),"63, 61, 62.5",62.166
+992,PATIENT_992,68,Male,yes(diabetes),no,yes,"70,70,70.5",70.16
+993,PATIENT_993,69,Male,yes(bp),no,yes,"76,75.5,76",75.833
+994,PATIENT_994,69,Female,no,no,no,"66,65,65.5",65.8
+995,PATIENT_995,70,Female,"yes(diabetes,bp)",no,yes,"65.2,65.5,64",64.9
+996,PATIENT_996,72,Male,no,no,no,"68, 69, 68",68.3
+997,PATIENT_997,72,Male,"Yes(Diabetes,Blockage in Heart)",shouler surgery,yes,"69,70,71",70.0
+998,PATIENT_998,74,Female,"yes(diabetes,bp)",knee surgery,yes,"63,62,62.6",62.53
+999,PATIENT_999,76,Male,"yes(diabetes,kidney stone)",no,no,"62,61,62.5",61.83
+1000,PATIENT_1000,85,Male,"yes (diabetes,heart blockage)",yes(open heart surgery),yes,"62,63,64",63.0

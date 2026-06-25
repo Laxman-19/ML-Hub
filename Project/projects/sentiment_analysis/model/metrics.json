@@ -1,0 +1,14 @@
+{
+  "algorithm": "TF-IDF + Multinomial Naive Bayes",
+  "accuracy": "85.8%",
+  "features": [
+    "Review text (title + body)"
+  ],
+  "classes": [
+    "Negative",
+    "Neutral",
+    "Positive"
+  ],
+  "dataset": "Amazon product reviews (rating-derived sentiment labels).",
+  "n_samples": 40000
+}

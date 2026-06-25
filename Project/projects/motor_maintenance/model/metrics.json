@@ -1,0 +1,17 @@
+{
+  "algorithm": "K-Means clustering + Random Forest",
+  "accuracy": "0.43 silhouette",
+  "features": [
+    "current",
+    "voltage",
+    "temperature",
+    "humidity",
+    "vibration"
+  ],
+  "classes": [
+    "Healthy",
+    "Maintenance Required"
+  ],
+  "dataset": "Motor sensor telemetry (current, voltage, temperature, humidity, vibration).",
+  "n_samples": 199
+}

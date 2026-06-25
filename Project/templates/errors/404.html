@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Not found — ML Hub{% endblock %}
+{% block content %}
+<div class="container error-page">
+  <span class="err-code">404</span>
+  <h1 class="err-title">Page not found</h1>
+  <p class="err-msg">That page doesn't exist. Head back to the model hub.</p>
+  <a href="{{ url_for('home') }}" class="btn btn-predict"><i class="bi bi-house"></i> Back to hub</a>
+</div>
+{% endblock %}

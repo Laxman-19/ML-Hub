@@ -1,0 +1,139 @@
+{% extends "base.html" %}
+{% block title %}{{ project.name }} — ML Hub{% endblock %}
+
+{% block content %}
+<div class="container project-page" style="--accent: {{ project.color }};">
+
+  <a href="{{ url_for('home') }}" class="back-link"><i class="bi bi-arrow-left"></i> All models</a>
+
+  <header class="project-header">
+    <span class="project-icon"><i class="bi {{ project.icon }}"></i></span>
+    <div>
+      <span class="project-cat">{{ project.category }}</span>
+      <h1 class="project-name">{{ project.name }}</h1>
+      <p class="project-desc">{{ project.description }}</p>
+    </div>
+  </header>
+
+  <div class="row g-4">
+    <!-- Input + Result -->
+    <div class="col-lg-7">
+      <div class="panel">
+        <h2 class="panel-title"><i class="bi bi-input-cursor-text"></i> Input</h2>
+        <form method="post"
+              {% if project.kind == 'image' %}enctype="multipart/form-data"{% endif %}
+              class="predict-form" novalidate>
+          {% for field in project.fields %}
+            <div class="field">
+              <label class="field-label" for="{{ field.name }}">{{ field.label }}</label>
+
+              {% if field.type == 'select' %}
+                <select class="form-select" id="{{ field.name }}" name="{{ field.name }}"
+                        {% if field.required %}required{% endif %}>
+                  {% for opt_label, opt_value in field.options %}
+                    <option value="{{ opt_value }}"
+                      {% if form_values.get(field.name) == opt_value|string %}selected{% endif %}>
+                      {{ opt_label }}
+                    </option>
+                  {% endfor %}
+                </select>
+
+              {% elif field.type == 'textarea' %}
+                <textarea class="form-control" id="{{ field.name }}" name="{{ field.name }}"
+                          rows="4" placeholder="{{ field.placeholder }}"
+                          {% if field.required %}required{% endif %}>{{ form_values.get(field.name, '') }}</textarea>
+
+              {% elif field.type == 'file' %}
+                <input class="form-control" type="file" id="{{ field.name }}" name="{{ field.name }}"
+                       accept=".jpg,.jpeg,.png"
+                       {% if field.required %}required{% endif %}>
+
+              {% else %}
+                <input class="form-control" type="number" id="{{ field.name }}" name="{{ field.name }}"
+                       step="{{ field.step }}"
+                       {% if field.min is not none %}min="{{ field.min }}"{% endif %}
+                       {% if field.max is not none %}max="{{ field.max }}"{% endif %}
+                       placeholder="{{ field.placeholder }}"
+                       value="{{ form_values.get(field.name, '') }}"
+                       {% if field.required %}required{% endif %}>
+              {% endif %}
+
+              {% if field.help_text %}<small class="field-help">{{ field.help_text }}</small>{% endif %}
+            </div>
+          {% endfor %}
+
+          {% if project.id == 'potato_leaf_disease' %}
+            <p class="field-help mb-3">
+              No leaf handy? Try a sample:
+              <a href="{{ url_for('static', filename='images/samples/sample_early_blight.jpg') }}" download>early blight</a>,
+              <a href="{{ url_for('static', filename='images/samples/sample_late_blight.jpg') }}" download>late blight</a>,
+              <a href="{{ url_for('static', filename='images/samples/sample_healthy.jpg') }}" download>healthy</a>.
+            </p>
+          {% endif %}
+
+          <button type="submit" class="btn btn-predict">
+            <i class="bi bi-cpu"></i> Run prediction
+          </button>
+        </form>
+      </div>
+
+      {% if result %}
+      <div class="panel result-panel">
+        <h2 class="panel-title"><i class="bi bi-graph-up-arrow"></i> Prediction</h2>
+
+        {% if uploaded_image_url %}
+          <img src="{{ uploaded_image_url }}" alt="Uploaded image" class="uploaded-preview">
+        {% endif %}
+
+        <div class="result-label">{{ result.label }}</div>
+        {% if result.detail %}<p class="result-detail">{{ result.detail }}</p>{% endif %}
+
+        {% if result.confidence_pct is not none %}
+          <div class="conf-row">
+            <span class="conf-text">Confidence</span>
+            <span class="conf-pct">{{ result.confidence_pct }}%</span>
+          </div>
+          <div class="conf-bar"><div class="conf-fill" style="width: {{ result.confidence_pct }}%;"></div></div>
+        {% endif %}
+
+        {% if result.extra.get('probabilities') %}
+          <div class="prob-breakdown">
+            {% for cls, pct in result.extra['probabilities'].items() %}
+              <div class="prob-item">
+                <span class="prob-name">{{ cls }}</span>
+                <div class="prob-track"><div class="prob-fill" style="width: {{ pct }}%;"></div></div>
+                <span class="prob-val">{{ pct }}%</span>
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        {% if result.extra.get('stroke_probability') is not none %}
+          <p class="result-detail mt-2">Estimated stroke probability: <strong>{{ result.extra['stroke_probability'] }}%</strong></p>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+
+    <!-- Model info -->
+    <div class="col-lg-5">
+      <div class="panel model-info">
+        <h2 class="panel-title"><i class="bi bi-info-circle"></i> Model information</h2>
+        <dl class="info-list">
+          <dt>Algorithm</dt><dd>{{ project.model_info.algorithm }}</dd>
+          <dt>{{ 'Model quality' if project.id == 'motor_maintenance' else 'Accuracy' }}</dt>
+          <dd>{{ project.model_info.accuracy }}</dd>
+          <dt>Dataset</dt><dd>{{ project.model_info.dataset }}</dd>
+          <dt>Features</dt>
+          <dd>
+            <div class="feature-tags">
+              {% for f in project.model_info.features %}<span class="ftag">{{ f }}</span>{% endfor %}
+            </div>
+          </dd>
+          {% if project.model_info.notes %}<dt>Note</dt><dd>{{ project.model_info.notes }}</dd>{% endif %}
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
